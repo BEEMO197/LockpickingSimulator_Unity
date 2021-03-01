@@ -118,7 +118,7 @@ public class LockpickManager : MonoBehaviour
         CheckAngleClick();
     }
 
-    private void findRandomAngle()
+    public void findRandomAngle()
     {
         pickAngle = Random.Range(0, 180);
     }
